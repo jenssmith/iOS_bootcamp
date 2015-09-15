@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10EE81A61BA88EE900BC0645 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 10EE81A51BA88EE900BC0645 /* Animals.json */; };
 		242CC0DD1BA7780F0046DF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0DC1BA7780F0046DF4A /* AppDelegate.swift */; };
 		242CC0E21BA7780F0046DF4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242CC0E01BA7780F0046DF4A /* Main.storyboard */; };
 		242CC0E41BA7780F0046DF4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242CC0E31BA7780F0046DF4A /* Assets.xcassets */; };
 		242CC0E71BA7780F0046DF4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242CC0E51BA7780F0046DF4A /* LaunchScreen.storyboard */; };
 		242CC0F21BA7780F0046DF4A /* ImaginaryAnimalListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0F11BA7780F0046DF4A /* ImaginaryAnimalListerTests.swift */; };
-		242CC0FD1BA7795A0046DF4A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0FC1BA7795A0046DF4A /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		242CC0FF1BA780480046DF4A /* imaginaryanimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0FE1BA780480046DF4A /* imaginaryanimal.swift */; settings = {ASSET_TAGS = (); }; };
-		242CC1011BA788390046DF4A /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC1001BA788390046DF4A /* AnimalsLoader.swift */; settings = {ASSET_TAGS = (); }; };
-		242CC1031BA78B500046DF4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC1021BA78B500046DF4A /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		242CC0FD1BA7795A0046DF4A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0FC1BA7795A0046DF4A /* TableViewController.swift */; };
+		242CC0FF1BA780480046DF4A /* imaginaryanimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC0FE1BA780480046DF4A /* imaginaryanimal.swift */; };
+		242CC1011BA788390046DF4A /* AnimalsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC1001BA788390046DF4A /* AnimalsLoader.swift */; };
+		242CC1031BA78B500046DF4A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CC1021BA78B500046DF4A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10EE81A51BA88EE900BC0645 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
 		242CC0D91BA7780F0046DF4A /* ImaginaryAnimalLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginaryAnimalLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		242CC0DC1BA7780F0046DF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		242CC0E11BA7780F0046DF4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		242CC0DB1BA7780F0046DF4A /* ImaginaryAnimalLister */ = {
 			isa = PBXGroup;
 			children = (
+				10EE81A51BA88EE900BC0645 /* Animals.json */,
 				242CC0DC1BA7780F0046DF4A /* AppDelegate.swift */,
 				242CC0FE1BA780480046DF4A /* imaginaryanimal.swift */,
 				242CC0FC1BA7795A0046DF4A /* TableViewController.swift */,
@@ -149,6 +152,7 @@
 		242CC0D11BA7780F0046DF4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = AthenaHealth;
 				TargetAttributes = {
@@ -186,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				242CC0E71BA7780F0046DF4A /* LaunchScreen.storyboard in Resources */,
+				10EE81A61BA88EE900BC0645 /* Animals.json in Resources */,
 				242CC0E41BA7780F0046DF4A /* Assets.xcassets in Resources */,
 				242CC0E21BA7780F0046DF4A /* Main.storyboard in Resources */,
 			);
@@ -397,6 +402,7 @@
 				242CC0F81BA7780F0046DF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		242CC0F91BA7780F0046DF4A /* Build configuration list for PBXNativeTarget "ImaginaryAnimalListerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +411,7 @@
 				242CC0FB1BA7780F0046DF4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
