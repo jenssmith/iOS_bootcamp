@@ -19,10 +19,19 @@ struct imaginaryanimal {
     var dateLastSeen: String
     var imageURL: NSURL?
     
-    init(fromJSON json AnyObject) {
+    init?(fromJSON json: AnyObject) {
+        
+        guard let json = json as? [String:AnyObject] else {
+            return nil
+        }
+        
         name = json["name"] as! String
         height = json["height"] as! Float
         location = json["location"] as! String
-        dateLastSEen = json["dateLastSeen"] as! String
+        dateLastSeen = json["dateLastSeen"] as! String
+        
+        if let imageURLString = json["imageURL"] as? String {
+            imageURL = NSURL(string: imageURLString)
+        }
     }
 }

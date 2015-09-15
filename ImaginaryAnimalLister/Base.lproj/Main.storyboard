@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8wh-cQ-0gH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8wh-cQ-0gH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -74,11 +74,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZzE-M2-BPX">
-                                <rect key="frame" x="8" y="194" width="220" height="189"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZzE-M2-BPX">
+                                <rect key="frame" x="8" y="186.5" width="300" height="450"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Gfq-q4-COT"/>
                                     <constraint firstAttribute="width" constant="288" id="bNy-bs-uMV"/>
                                     <constraint firstAttribute="height" constant="250" id="mZs-6G-eNS"/>
+                                    <constraint firstAttribute="height" constant="450" id="wJS-qz-YPw"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -93,11 +95,13 @@
                             <constraint firstItem="1Mo-ZQ-ge4" firstAttribute="top" secondItem="mki-rk-qUw" secondAttribute="bottom" constant="7.5" id="Awm-bX-epV"/>
                             <constraint firstItem="ZzE-M2-BPX" firstAttribute="top" secondItem="1Mo-ZQ-ge4" secondAttribute="bottom" constant="17.5" id="BPx-MI-WEm"/>
                             <constraint firstItem="sDV-OO-hRY" firstAttribute="top" secondItem="5J5-C3-Ku1" secondAttribute="bottom" constant="8.5" id="DGu-vK-znn"/>
+                            <constraint firstItem="ZzE-M2-BPX" firstAttribute="top" secondItem="1Mo-ZQ-ge4" secondAttribute="bottom" constant="8" id="FiY-Mk-Lch"/>
                             <constraint firstItem="sDV-OO-hRY" firstAttribute="top" secondItem="5J5-C3-Ku1" secondAttribute="bottom" constant="8.5" id="VDB-Sg-qZ9"/>
                             <constraint firstItem="mki-rk-qUw" firstAttribute="leading" secondItem="sDV-OO-hRY" secondAttribute="leading" id="c0B-e9-6oN"/>
                             <constraint firstItem="ZzE-M2-BPX" firstAttribute="top" secondItem="1Mo-ZQ-ge4" secondAttribute="bottom" constant="17" id="eJf-rb-t7F"/>
                             <constraint firstItem="sDV-OO-hRY" firstAttribute="top" secondItem="5J5-C3-Ku1" secondAttribute="bottom" constant="8" id="gqK-7T-rVb"/>
                             <constraint firstItem="5J5-C3-Ku1" firstAttribute="top" secondItem="Hof-Al-HZc" secondAttribute="bottom" constant="8" id="i1X-Db-rbh"/>
+                            <constraint firstItem="ZzE-M2-BPX" firstAttribute="leading" secondItem="1Mo-ZQ-ge4" secondAttribute="leading" id="l6i-Lx-hzC"/>
                             <constraint firstItem="1Mo-ZQ-ge4" firstAttribute="leading" secondItem="mki-rk-qUw" secondAttribute="leading" id="mrZ-vx-3d0"/>
                             <constraint firstItem="ZzE-M2-BPX" firstAttribute="leading" secondItem="1Mo-ZQ-ge4" secondAttribute="leading" id="qqI-yH-mTN"/>
                             <constraint firstItem="1Mo-ZQ-ge4" firstAttribute="top" secondItem="mki-rk-qUw" secondAttribute="bottom" constant="8" id="uIy-yR-iVz"/>
