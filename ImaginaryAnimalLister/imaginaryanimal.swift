@@ -18,4 +18,11 @@ struct imaginaryanimal {
     var location: String
     var dateLastSeen: String
     var imageURL: NSURL?
+    
+    init(fromJSON json AnyObject) {
+        name = json["name"] as! String
+        height = json["height"] as! Float
+        location = json["location"] as! String
+        dateLastSEen = json["dateLastSeen"] as! String
+    }
 }

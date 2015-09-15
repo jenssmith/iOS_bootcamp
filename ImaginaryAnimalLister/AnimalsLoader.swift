@@ -17,7 +17,7 @@ struct AnimalsLoader {
             let data = NSData(contentsOfURL: url),
             let jsonArray = try? NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions(rawValue: 0)) as? [AnyObject] else {
                 
-                fatalError("Couldn't load or parse file")
+                return animalsArray
         }
         
         if let jsonArray:[AnyObject] = jsonArray {
